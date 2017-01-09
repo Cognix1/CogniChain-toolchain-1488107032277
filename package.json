@@ -7,7 +7,9 @@
 	},
 	"dependencies": {
 		"express": "4.13.x",
-		"cfenv": "1.0.x"
+		"cfenv": "1.0.x",
+    		"node-rest-client": "^2.0.1",
+    		"pug": "^2.0.0-beta6"
 	},
 	"repository": {},
 	"engines": {
