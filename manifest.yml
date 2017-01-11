@@ -4,5 +4,5 @@ applications:
   instances: 1
   domain: mybluemix.net
   name: faststart-webapp
-  host: faststart-webapp
+  host: faststart-webapp-APPEND_YOUR_NAME_HERE
   disk_quota: 1024M
