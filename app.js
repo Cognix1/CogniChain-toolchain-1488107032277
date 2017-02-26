@@ -22,10 +22,10 @@ app.set('view engine', 'pug');
 app.get('/greet', function(req, res) {
 
     //Change the values of the variables below based on your environment 
-    var peerUrl = "Replace this with your peer URL";
-    var chaincodeID = "Replace this with you chaincode ID";
-    var userName = "Replace this with the blockchain username";
-    var password = "Replace this with the blockchain password";
+    var peerUrl = "grpcs://fc2e4f4976224e24a79cef332f5ea6b4-ca.us.blockchain.ibm.com:30004";
+    var chaincodeID = "011b034a4820c80db68e6b3a2ed55a629fd49455aacdb0b64868523a37da742a503939bc77b79aa891daa31dbde2ac9ca09f9d9db2d3787ce391671a24af6151";
+    var userName = "user_type1_2";
+    var password = "60bbaf1189";
 
     var Client = require('node-rest-client').Client;
     var client = new Client();
